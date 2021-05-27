@@ -44,6 +44,7 @@ marcela2.nombre = "marcela soto";
 console.log(marcela, " ", marcela2);
 
 //para copiar un objeto realmente, sin mebargo, no puede copiar objetos anidados por lo que no hace un clon sino una sombra
+// como listas, diccionarios, sets, etc.
 const marcela3 = Object.assign({}, marcela);
 marcela3.nombre = "marcela de claudio";
 
